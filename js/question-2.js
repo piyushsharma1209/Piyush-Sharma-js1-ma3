@@ -25,7 +25,7 @@ async function getRawg() {
                 break;
             }
 
-            resultsContainter.innerHTML += `<div class="result">${games[i].name}<br>${games[i].rating}<br>${games[i].tags.length}</div>`;
+            resultsContainter.innerHTML += `<div class="result">Name: ${games[i].name}<br>Rating: ${games[i].rating}<br>Tags: ${games[i].tags.length}</div>`;
 
         }
     } catch (error) {
